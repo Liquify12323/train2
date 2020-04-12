@@ -1,0 +1,49 @@
+<html>
+<head>
+      <title>journey details</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<style>
+      <style>
+body{
+
+background-image:url("train4.jpg");
+background-repeat:no-repeat;
+background-position:center bottom;
+background-attachment:standard;
+
+}
+</style>
+</head>
+<body>
+ 
+<fieldset> 
+<form>
+<form action="/server_name.php">
+<h1> JOURNEY details</h1>
+<p>Name of the train:<input type="text"</p>
+<p>date of journey:<input type="text"</p>
+<p>departure:<input type="text"></p>
+<p>no.of passengers:<input type="text"></p>
+<br><br>
+<p>select your seat</p>
+<p><select name="choices">
+   <option>upper</option>
+   <option>lower</option>
+   <option>side upper</option>
+   <option>side lower</option></select></p>
+<p>Select Couch</p>
+<p><select name="choices">
+   <option>general</option>
+   <option>1AC</option>
+   <option>2AC</option>
+   <option>3AC</option>    
+</select></p>
+<input type="submit"><br><br></feildset>
+<fieldset>
+<h2 class="animated infinite bounce" style="color:purple">happy journey</h2>
+</feildset><br>
+<a href="file://C:\Users\Dell\Desktop\train\payment.html">procced to pay</a>
+</body>
+</html> 
+ 
+ 

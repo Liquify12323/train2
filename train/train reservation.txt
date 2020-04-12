@@ -1,0 +1,48 @@
+ 
+<html>
+<head>
+      <title>reservation form</title>
+      <style>
+body{
+
+background-image:url("train3.jpg");
+background-repeat:no-repeat;
+background-position:center bottom;
+background-attachment:standard;
+
+}
+</style>
+</head>
+<body>
+<fieldset> 
+<form>
+<form action="C:\Users\Dell\Desktop\train\jrny details.html" method="post">
+<h1>Reservation Form</h1>
+<p>NAME<input type="text"</p>
+<p>AGE<input type="text"</p>
+<p>ADRESS<input type="text"></p>
+<p>CONTACT no:<input type="text"></p>
+<br><br>
+<p>select your BERTH</p>
+<p><select name="choices">
+   <option>TATKAL</option>
+   <option>LADIES</option>
+   <option>GENERAL</option></select></p>
+<p>CITY from where you want to start journey</p>
+<p><select name="choices">
+   <option>Tadepalligudem</option>
+   <option>Eluru</option>
+   <option>Khammam</option>
+   <option>VIJAYAWADA</option>
+   <option>Hyderabad</option>
+   <option>Pagwara</option>
+   <option>Jalandar</option>
+   <option>New Delhi</option>
+   <option>Narasapuram</option>
+</select></p>
+<input type="submit"><br><br></feildset>
+<a href="file://C:\Users\Dell\Desktop\train\jrny details.html">NEXT</a>
+</body>
+</html> 
+ 
+ 
